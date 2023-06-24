@@ -4,31 +4,217 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/fonts.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header class="header">
-        <content class="content">
-            <div class="banner___img"> 
-                
-                <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="">
-            </div>
-            <div class="menu">
-                <ul class="menu__list">
-                    <li><a class="menu__list__items" href="#">Главная</a></li>
-                    <li><a class="menu__list__items" href="#">Посты</a></li>
-                    <li><a class="menu__list__items" href="#">Статьи</a></li>
-                    <li><a class="menu__list__items" href="#">Теги</a></li>
-                    <li><a class="menu__list__items" href="#">Темы</a></li>
-                    <li><a class="menu__list__items" href="#">Контакты</a></li>
-                </ul>
+        <div class="container">
+            <div class="container-header">
+                <div class="banner___img"> 
+                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="">
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Главная</a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Посты</a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Статьи</a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Теги</a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Темы</a>
+                        </li>
+                        <li class="menu__list__item">
+                            <a class="menu-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             
-        </content>
-        <h1 class="header__title">Блог о творчестве, спорте, и образе жизни</h1>
+        </div>
     </header>
+        <section class="welcome">
+            <div class="container welcome_title">
+                <h1 class="header__title">Блог о творчестве, спорте,<br> и образе жизни</h1>
+            </div>
+        </section>
 
-    <div>sadfasfas</div>
+        <section>
+            <div class="container">
+                <div class="main-container">
+                    <main class="main-content">
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://github.com/netology-code/html-2-diploma/blob/master/sources/images/last-post1.jpg?raw=true" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">travel</p>
+                                    <p class="category">health</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">10 мест, ради которых стоит проснуться на рассвете</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">health</p>
+                                    <p class="category">lifestyle</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">Йога для начинающих в домашних условиях</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">music</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">Лучшие музыкальные фестивали этого лета</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
+                                    <p class="second-description">Мы составили список лучших летних фестивалей по всему миру.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">lifestyle</p>
+                                    <p class="category">food</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">Наукоёмкий подход к кулинарии</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">Lifestyle</p>
+                                    <p class="category">INTERIOR</p>
+                                    <p class="category">art</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">делаем модные принты на подушках для интерьера </p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">travel</p>
+                                    <p class="category">lifestyle</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">Как первый раз отправиться в горы?</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cart-main">
+                            <div class="cart-img">
+                                <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="">
+                            </div>
+                            <div class="cart-content">
+                                <div class="cart-category">
+                                    <p class="category">lifestyle</p>
+                                    <p class="category">food</p>
+                                </div>
+                                <div class="cart-title">
+                                    <p class="cart-title_header">Наукоёмкий подход к кулинарии</p>
+                                </div>
+                                <div class="cart-time">
+                                    <time datetime="2019-06-10">10 июня 2019</time>
+                                    <span class="author">Неизвестный автор</span>
+                                </div>
+                                <div class="cart-description">
+                                    <p class="first-description">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        
+                        
+                       
+                    </main>
+                    <article></article>
+                </div>
+                
+            </div>
+        </section>
 
 </body>
 </html>

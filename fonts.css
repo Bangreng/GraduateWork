@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(/fonts/OpenSans-Bold.woff) format("woff");
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(/fonts/OpenSans-Regular.woff) format("woff");
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

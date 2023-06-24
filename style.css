@@ -1,38 +1,74 @@
-@font-face {
-    font-family: "Open Sans";
-    src: url(/fonts/OpenSans-Bold.woff) format("woff");
-
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url(/fonts/OpenSans-Regular.woff) format("woff");
-
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 * {
-    position: relative;
-    padding: 0;
+    box-sizing: border-box;
+}
+body {
     margin: 0;
-    z-index: 2;
+    padding: 0;
+    
 }
 
 .header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding: 24px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.banner___img {
+    padding-top: 5px;
+}
+
+.menu-link {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.menu__list__item {
+    margin-right: 35px;
+}
+
+.menu__list__item:nth-child(6n) {
+    margin-right: 0;
+}
+
+
+.banner___img {
+    width: 180px;
+}
+
+.welcome {
+    position: relative;
     background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
     height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #000000;
+    
 }
 
-.header::before {
+ .welcome::before {
     content: "";
     display: block;
     position: absolute;
@@ -43,35 +79,11 @@
     background-color: #000000;
     opacity: 0.6;
     z-index: 1;
-}
+} 
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 0 248px; */
-    padding-top: 28px;
-    max-width: 1170px;
-    margin: 0 auto;
-}
-.banner___img {
-    width: 180px;
-}
-
-
-.menu__list {
-    display: flex;
-    list-style-type: none;
-    gap: 35px;
-}
-
-.menu__list__items {
-    font-family: "Open Sans", Arial, sans-serif;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 400;
+.welcome_title {
+    position: relative;
+    z-index: 2;
 }
 
 .header__title {
@@ -83,6 +95,101 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 125px;
-    width: 670px;
+    padding-top: 173px;
+    
+} 
+
+.main-container {
+    max-width: 778px;
 }
+
+
+.main-content {
+    padding-top: 63px;
+}
+
+
+.cart-main {
+    display: flex;
+    padding-bottom: 55px;
+ 
+}
+
+.cart-img img {
+    object-fit: cover;
+}
+
+.cart-category {
+    display: flex;
+    margin-top: -28px;
+    
+}
+
+.category {
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #b59f5b;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-right: 22px;
+}
+
+.cart-content {
+    padding-left: 32px;
+}
+
+
+.cart-title {
+    
+    margin-top: -37px;
+}
+
+.cart-title_header {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.cart-time {
+    margin-top: -3px;
+    margin-left: -3px;
+}
+
+time {
+    font-size: 12px;
+    line-height: 40px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.author {
+    font-size: 13px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-left: 8px;
+}
+
+.cart-description {
+    max-width: 367px;
+    height: 62px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 17px;
+    margin-left: -3px;
+}
+
+.second-description {
+    margin-top: -5px;
+}
+
+
